@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ansible from my phone
+title: Ansible Tower jobs from my phone
 ---
 
 *A walkthrough of an experiment running Ansible Tower jobs from an iPhone*
