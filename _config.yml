@@ -7,13 +7,13 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-#defaults:
-#  -
-#   scope:
-#      path: "" # an empty string here means all files in the project
-#      type: "posts"
-#    values:
-#      layout: "post"
+defaults:
+  -
+   scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
 
 #topics:
 #  - name: CSS
