@@ -8,11 +8,7 @@
       {{ content }}
     </div>
 
-    {% comment %}
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
-    {% endcomment %}
+
 
     {% if site.topics %}
       <div class="my-6">
@@ -39,9 +35,7 @@
             {{ content }}
           </div>
         {% endunless %}
-        {% comment %}
-        {% include projects.html %}
-        {% endcomment %}
+
 
         {% if site.topics %}
           {% include interests.html %}
@@ -55,4 +49,4 @@
   </div>
 {% endif %}
 
-{% include footer.html %}
+
