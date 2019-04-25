@@ -15,6 +15,8 @@ When the playbook has completed, you should be able access a dashboard of all ho
 
 In the future, more functionality will be moved to Cockpit. For example, RHEL 8 includes a `virt-manager` like interface for managing virtual machines running on RHEL 8.
 
+See the official docs for more information: [Getting Started with Cockpit - Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/getting_started_with_cockpit/index)
+
 *Be sure to view the sample inventory file included.*
 
 ![Cockpit screenshot](https://github.com/cloin/ansible-cockpit/blob/master/cockpit-dashboard.gif?raw=true)
