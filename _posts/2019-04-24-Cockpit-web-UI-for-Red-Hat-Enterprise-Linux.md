@@ -5,6 +5,10 @@ title: Cockpit Web UI for Red Hat Enterprise Linux
 
 *Cockpit: Web UI for Red Hat Enterprise Linux*
 
+[Red Hat Blog: Cockpit](https://www.redhat.com/en/blog/linux-system-administration-management-console-cockpit)
+
+[Getting Started with Cockpit - Red Hat Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/getting_started_with_cockpit/index)
+
 Cockpit is a web UI packaged with Red Hat Enterprise Linux that aids in system administration. Many common administrative tasks such as local user account management, package installation/updates, Red Hat subscription management, network interface configuration, storage device and file system management are exposed by the web UI. Additionally, the web UI is only started by `systemd` only when a connection to the Cockpit socket is initiated. 
 
 Every RHEL server can expose Cockpit functionality. However, there is another configuration where a single Cockpit instance can be deployed and can serve as the master node to access administrative tasks on all other nodes. The package that makes this possible is `cockpit-dashboard`. This means that cockpit does not have to be installed on all RHEL instances, and only one firewall rule needs to be maintained for the Cockpit server running the dashboard. The user that logs into the master node must have ssh access to the rest of the nodes in order for the dashboard and admin tasks to work properly.
@@ -15,7 +19,6 @@ When the playbook has completed, you should be able access a dashboard of all ho
 
 In the future, more functionality will be moved to Cockpit. For example, RHEL 8 includes a `virt-manager` like interface for managing virtual machines running on RHEL 8.
 
-See the official docs for more information: [Getting Started with Cockpit - Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/getting_started_with_cockpit/index)
 
 *Be sure to view the sample inventory file included.*
 
